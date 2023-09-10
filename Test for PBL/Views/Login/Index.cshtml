@@ -1,0 +1,32 @@
+﻿@{
+    if (@TempData["SignUpMessage"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["SignUpMessage"]
+        </div>
+    }
+}
+
+<div>
+    <div class="row">
+        <label>Name</label>
+        <input id="nm" />
+    </div>
+
+
+    <div class="row">
+        <label>Password</label>
+        <input type="password" id="psw" oninput="checkPassword()" />
+    </div>
+
+    <div style="display: flex; justify-content: center; margin: 10px;">
+        <button id="logInButton" oninput="logIn">Login</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/LoginJS.js"></script>
+}
+
+
+

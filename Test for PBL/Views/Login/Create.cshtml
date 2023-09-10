@@ -1,0 +1,33 @@
+﻿<div >
+    <div class="row">
+        <label>Name</label>
+        <input id="nm"/>
+    </div>
+
+
+    <div class="row">
+        <label>Password</label>
+        <input type="password" id="psw" oninput="checkPassword()"/>
+    </div>
+
+
+    <div class="row">
+        <label>Confirm Password</label>
+        <input type="password" id="cfmPsw" oninput="checkPassword()"/>
+    </div>
+
+    <div>
+        <span id="pswMsg" style="color: red;"></span>
+    </div>
+    
+    <div style="display: flex; justify-content: center; margin: 10px;">
+        <button id="signUpButton" >Sign Up</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/SignUp.js"></script>
+}
+
+
+
