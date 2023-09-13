@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3QJBud3Y0UGcb9gElJq8preEfOnQkg849E/TdiU0PaA=",
+  "Hash": "hfwth18HIUcdDBCr7oUlrp6g2iVipweyjT+IAMIwjAQ=",
   "Source": "Test for PBL",
   "BasePath": "_content/Test for PBL",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Tu hoc\\ASP_NET_CORE\\Test for PBL\\Test for PBL\\wwwroot\\DBScripts.sql",
+      "SourceId": "Test for PBL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tu hoc\\ASP_NET_CORE\\Test for PBL\\Test for PBL\\wwwroot\\",
+      "BasePath": "_content/Test for PBL",
+      "RelativePath": "DBScripts.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DBScripts.sql"
     },
     {
       "Identity": "D:\\Tu hoc\\ASP_NET_CORE\\Test for PBL\\Test for PBL\\wwwroot\\favicon.ico",

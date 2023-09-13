@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Tu hoc\\ASP_NET_CORE\\Test for PBL\\Test for PBL\\wwwroot\\DBScripts.sql",
+      "PackagePath": "staticwebassets\\DBScripts.sql"
+    },
+    {
       "Id": "D:\\Tu hoc\\ASP_NET_CORE\\Test for PBL\\Test for PBL\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
